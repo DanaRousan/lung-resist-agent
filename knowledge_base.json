@@ -1,0 +1,23 @@
+{
+  "EGFR_PACC": {
+    "gene": "EGFR",
+    "alteration": "PACC mutations",
+    "mechanism": "Atypical structural alterations leading to variable TKI binding.",
+    "trial_recommendation": "Firmonertinib (Evaluate via FURTHER Trial)",
+    "citation": "Le X, et al. FURTHER: A Global, Randomized Study of Firmonertinib."
+  },
+  "HER2_Resistance": {
+    "gene": "HER2",
+    "alteration": "SLFN11 loss or ABCC1 gain",
+    "mechanism": "Antibody-Drug Conjugate (ADC) payload resistance; tumor remains sensitive to kinase inhibition.",
+    "trial_recommendation": "Switch to HER2 TKI like Sevabertinib (Evaluate via SOHO-02 Trial)",
+    "citation": "Le X, et al. First Comprehensive Investigation of ADC Resistance Mechanisms in Lung Cancer."
+  },
+  "MET_Amplification": {
+    "gene": "MET",
+    "alteration": "Amplification",
+    "mechanism": "Bypass track activation leading to EGFR TKI escape.",
+    "trial_recommendation": "Osimertinib + MET Inhibitor (e.g., INSIGHT-2 trial logic)",
+    "citation": "Standard of Care / Published Guidelines"
+  }
+}
