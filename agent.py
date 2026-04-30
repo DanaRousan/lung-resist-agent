@@ -1,9 +1,10 @@
 import json
 import os
+import streamlit as st
 from openai import OpenAI
 
-# Streamlit Cloud securely injects the API key
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+# Force the app to use Streamlit's native secrets manager
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 def load_knowledge():
     with open("knowledge_base.json", "r") as f:
